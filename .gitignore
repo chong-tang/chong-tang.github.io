@@ -1,0 +1,4 @@
+assets/*.docx
+*.tmp
+*.log
+__pycache__/
