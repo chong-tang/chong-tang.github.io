@@ -6,7 +6,7 @@
   --border: #e8e8e8;
   --accent: #35564d;
   --page-width: 1040px;
-  --section-space: 88px;
+  --section-space: 68px;
 }
 
 * { box-sizing: border-box; }
@@ -52,7 +52,7 @@ nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 22px; 
   grid-template-columns: 32% 1fr;
   gap: 9%;
   align-items: center;
-  padding: 88px 0 96px;
+  padding: 72px 0 78px;
 }
 
 .portrait {
@@ -65,7 +65,7 @@ nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 22px; 
 
 h1, h2, h3, p { margin-top: 0; }
 h1 { margin-bottom: 12px; font-size: 36px; font-weight: 500; line-height: 1.15; letter-spacing: -0.025em; }
-h2 { margin-bottom: 32px; font-size: 27px; font-weight: 500; line-height: 1.25; letter-spacing: -0.015em; }
+h2 { margin-bottom: 28px; font-size: 27px; font-weight: 500; line-height: 1.25; letter-spacing: -0.015em; }
 h3 { margin-bottom: 7px; font-size: 17px; font-weight: 500; line-height: 1.4; }
 
 .identity { margin-bottom: 1px; font-size: 16px; font-weight: 500; }
@@ -119,7 +119,7 @@ h3 { margin-bottom: 7px; font-size: 17px; font-weight: 500; line-height: 1.4; }
 .timeline-institution { color: var(--text) !important; }
 .timeline-detail { margin-top: 5px !important; font-size: 14px; }
 
-.compact-section { padding-top: 64px; padding-bottom: 64px; }
+.compact-section { padding-top: 54px; padding-bottom: 54px; }
 .contact-details { display: grid; max-width: 620px; gap: 10px; }
 .contact-row { display: grid; grid-template-columns: 72px 1fr; gap: 18px; }
 .contact-label { color: var(--muted); font-size: 14px; }
@@ -129,11 +129,11 @@ h3 { margin-bottom: 7px; font-size: 17px; font-weight: 500; line-height: 1.4; }
 @media (max-width: 700px) {
   .site-header { position: static; }
   .content-section, .about-section { scroll-margin-top: 0; }
-  :root { --section-space: 64px; }
+  :root { --section-space: 54px; }
   .page-container { width: min(100% - 32px, var(--page-width)); }
   .header-inner { align-items: flex-start; flex-direction: column; gap: 14px; padding: 20px 0; }
   nav { justify-content: flex-start; gap: 6px 18px; }
-  .about-section { grid-template-columns: 1fr; gap: 36px; padding: 60px 0 64px; }
+  .about-section { grid-template-columns: 1fr; gap: 32px; padding: 52px 0 56px; }
   .portrait { width: min(58vw, 220px); }
   h1 { font-size: 32px; }
   .methods-line { display: block; }
@@ -144,8 +144,8 @@ h3 { margin-bottom: 7px; font-size: 17px; font-weight: 500; line-height: 1.4; }
 
 
 .education-section {
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 
